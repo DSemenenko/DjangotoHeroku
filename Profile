@@ -1,1 +1,1 @@
-webgunicorn DjangotoHeroku.wsql
+web: gunicorn DjangotoHeroku.wsgi
