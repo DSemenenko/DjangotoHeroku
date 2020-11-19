@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'DjangotoHeroku.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd93v3ojvj1irlm',
+        'USER': 'ulibmaxueqmius',
+        'PASSWORD': '34c638f7fe6b8ef497dfea45cf662c47e5f27c76d8a38e67cf56f85d8ec71979',
+        'HOST': 'ec2-54-228-209-117.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
