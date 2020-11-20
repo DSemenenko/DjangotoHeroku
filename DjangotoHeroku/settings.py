@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'DjangotoHeroku.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd93v3ojvj1irlm',
-        'USER': 'ulibmaxueqmius',
-        'PASSWORD': '34c638f7fe6b8ef497dfea45cf662c47e5f27c76d8a38e67cf56f85d8ec71979',
-        'HOST': 'ec2-54-228-209-117.eu-west-1.compute.amazonaws.com',
+        'NAME': 'dbf1su7i722acc',
+        'USER': 'bqujtpxnaqogcj',
+        'PASSWORD': '9143fe75153b9bf6a51e670b7c9eb672ba81e49b5187bbcb2e547d1286f6a300',
+        'HOST': 'ec2-3-248-4-172.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
